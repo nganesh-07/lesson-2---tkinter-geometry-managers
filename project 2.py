@@ -16,7 +16,7 @@ def calculate_age():
 
 root = Tk()
 root.title("age calculator")
-root.geometry("300x500")
+root.geometry("400x400")
 
 frame = Frame(master=root, height=200, width=360, bg="#d0efff")
 frame.pack(pady=20)
@@ -27,17 +27,17 @@ name_entry = Entry(frame)
 name_entry.grid(row=0, column=1, padx=10, pady=5)
 
 # day
-Label(frame, text="Date:", bg="#d0efff").grid(row=1, column=0, padx=10, pady=5, sticky="w")
+Label(frame, text="Birthdate:", bg="#d0efff").grid(row=1, column=0, padx=10, pady=5, sticky="w")
 day_entry = Entry(frame)
 day_entry.grid(row=1, column=1, padx=10, pady=5)
 
 # month
-Label(frame, text="Month:", bg="#d0efff").grid(row=2, column=0, padx=10, pady=5, sticky="w")
+Label(frame, text="Birth month:", bg="#d0efff").grid(row=2, column=0, padx=10, pady=5, sticky="w")
 month_entry = Entry(frame)
 month_entry.grid(row=2, column=1, padx=10, pady=5)
 
 # year
-Label(frame, text="Year:", bg="#d0efff").grid(row=3, column=0, padx=10, pady=5, sticky="w")
+Label(frame, text="Birth year:", bg="#d0efff").grid(row=3, column=0, padx=10, pady=5, sticky="w")
 year_entry = Entry(frame)
 year_entry.grid(row=3, column=1, padx=10, pady=5)
 
